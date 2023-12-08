@@ -2,7 +2,6 @@
 import * as React from "react"
 import {
   CaretSortIcon,
-  CheckIcon,
 } from "@radix-ui/react-icons"
 
 import { cn } from "@/lib/utils"
@@ -110,14 +109,6 @@ export default function UserPrivilegesSwitcher({ className }: TeamSwitcherProps)
                         <AvatarFallback>SC</AvatarFallback>
                       </Avatar>
                       {team.label}
-                      <CheckIcon
-                        className={cn(
-                          "ml-auto h-4 w-4",
-                          selectedTeam.value === team.value
-                            ? "opacity-100"
-                            : "opacity-0"
-                        )}
-                      />
                     </CommandItem>
                   ))}
                 </CommandGroup>
