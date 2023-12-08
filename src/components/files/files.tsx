@@ -7,7 +7,6 @@ import { z } from "zod"
 import { columns } from "./columns"
 import { DataTable } from "./data-table"
 import { taskSchema } from "./data-files/schema"
-import files from './data-files/files.json'
 
 export const metadata: Metadata = {
   title: "Tasks",
@@ -16,7 +15,7 @@ export const metadata: Metadata = {
 
 async function getTasks() {
   const data = await fs.readFile(
-    path.join(process.cwd(), './data-files/files.json')
+    path.join(process.cwd(), "src/components/files/data-files/files.json")
   )
 
   const tasks = JSON.parse(data.toString())

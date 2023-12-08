@@ -4,9 +4,6 @@ import UserPrivilegesSwitcher from "@/components/navbar/user-privileges-switcher
 import { Sidebar } from "@/components/sidebar/sidebar"
 import FilesPage from "@/components/files/files"
 
-
-
-
 export default  function Home() {
 
   return (
@@ -19,13 +16,13 @@ export default  function Home() {
             <UserNavBar />
           </div>
         </div>
-        <div className="border-t">
+        <div className="border-t flex">
           <div className="bg-background">
             <div className="grid lg:grid-cols-5">
               <Sidebar />
             </div>
           </div>
-          <div className="hidden h-full flex-1 flex-col space-y-8 p-8 md:flex">
+          <div className="hidden h-full flex-1 flex-col space-y-8 md:flex">
               <FilesPage />
           </div>
         </div>
