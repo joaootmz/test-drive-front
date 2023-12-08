@@ -17,15 +17,15 @@ export function Sidebar({ className }: SidebarProps) {
           <div className="space-y-1">
             <Button variant="secondary" className="w-full justify-start">
               <HomeIcon className="mr-2 h-4 w-4"/>
-              Pessoal
+              Personal
             </Button>
             <Button variant="ghost" className="w-full justify-start">
               <DescriptionIcon className="mr-2 h-4 w-4" />
-              Meu drive
+              My drive
             </Button>
             <Button variant="ghost" className="w-full justify-start">
               <DevicesIcon className="mr-2 h-4 w-4"/>
-              Computadores
+              Devices
             </Button>
           </div>
         </div>
@@ -33,15 +33,15 @@ export function Sidebar({ className }: SidebarProps) {
           <div className="space-y-1">
             <Button variant="ghost" className="w-full justify-start">
                 <SupervisorAccountIcon className="mr-2 h-4 w-4"/>
-              Compartilhados comigo
+              Shared with me
             </Button>
             <Button variant="ghost" className="w-full justify-start">
               <AccessTimeIcon className="mr-2 h-4 w-4"/>
-              Recentes
+              Recent
             </Button>
             <Button variant="ghost" className="w-full justify-start">
               <DeleteIcon className="mr-2 h-4 w-4"/>
-              Lixeira
+              Trash
             </Button>
           </div>
         </div>

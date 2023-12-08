@@ -1,71 +1,45 @@
 import {
-    ArrowDownIcon,
-    ArrowRightIcon,
-    ArrowUpIcon,
-    CheckCircledIcon,
-    CircleIcon,
-    CrossCircledIcon,
-    QuestionMarkCircledIcon,
-    StopwatchIcon,
-  } from "@radix-ui/react-icons"
-  
-  export const labels = [
+    AvatarIcon,
+    PersonIcon,
+    UploadIcon
+} from "@radix-ui/react-icons"
+
+export const labels = [
     {
-      value: "bug",
-      label: "Bug",
+        value: "pdf",
+        label: "pdf",
     },
     {
-      value: "feature",
-      label: "Feature",
+        value: "docx",
+        label: "docx",
     },
     {
-      value: "documentation",
-      label: "Documentation",
-    },
-  ]
-  
-  export const statuses = [
-    {
-      value: "backlog",
-      label: "Backlog",
-      icon: QuestionMarkCircledIcon,
+        value: "jpg",
+        label: "jpg",
     },
     {
-      value: "todo",
-      label: "Todo",
-      icon: CircleIcon,
+        value: "xls",
+        label: "xls",
+    },
+]
+
+export const statuses = [
+    {
+        value: "uploaded",
+        label: "uploaded",
+        icon: UploadIcon,
+    }
+]
+
+export const priorities = [
+    {
+        label: "admin",
+        value: "admin",
+        icon: AvatarIcon,
     },
     {
-      value: "in progress",
-      label: "In Progress",
-      icon: StopwatchIcon,
+        label: "composer",
+        value: "composer",
+        icon: PersonIcon,
     },
-    {
-      value: "done",
-      label: "Done",
-      icon: CheckCircledIcon,
-    },
-    {
-      value: "canceled",
-      label: "Canceled",
-      icon: CrossCircledIcon,
-    },
-  ]
-  
-  export const priorities = [
-    {
-      label: "Low",
-      value: "low",
-      icon: ArrowDownIcon,
-    },
-    {
-      label: "Medium",
-      value: "medium",
-      icon: ArrowRightIcon,
-    },
-    {
-      label: "High",
-      value: "high",
-      icon: ArrowUpIcon,
-    },
-  ]
+]

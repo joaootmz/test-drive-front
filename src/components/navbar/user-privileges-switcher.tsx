@@ -32,18 +32,18 @@ import {
 
 const groups = [
   {
-    label: "Alternar Privilégios",
+    label: "Change Privilegies",
     teams: [
       {
-        label: "Administrador",
+        label: "Admin",
         value: "personal",
       },
       {
-        label: "Criador",
+        label: "Composer",
         value: "personal",
       },
       {
-        label: "Convidado",
+        label: "Guest",
         value: "personal",
       },
     ],
@@ -88,7 +88,7 @@ export default function UserPrivilegesSwitcher({ className }: TeamSwitcherProps)
         <PopoverContent className="w-[200px] p-0">
           <Command>
             <CommandList>
-              <CommandInput placeholder="Pesquisar uruário" />
+              <CommandInput placeholder="Search users" />
               {groups.map((group) => (
                 <CommandGroup key={group.label} heading={group.label}>
                   {group.teams.map((team) => (
