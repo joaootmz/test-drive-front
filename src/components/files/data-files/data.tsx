@@ -1,7 +1,8 @@
 import {
     AvatarIcon,
     PersonIcon,
-    UploadIcon
+    UploadIcon,
+    CrossCircledIcon,
 } from "@radix-ui/react-icons"
 
 export const labels = [
@@ -28,6 +29,11 @@ export const statuses = [
         value: "uploaded",
         label: "uploaded",
         icon: UploadIcon,
+    },
+    {
+        value: "error",
+        label: "error",
+        icon: CrossCircledIcon,
     }
 ]
 

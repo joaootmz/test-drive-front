@@ -9,7 +9,7 @@
   {
     "id": "5632",
     "title": "report.docx",
-    "status": "uploaded",
+    "status": "error",
     "label": "docx",
     "owner": "composer"
   },
@@ -65,7 +65,7 @@
   {
     "id": "1247",
     "title": "presentation.docx",
-    "status": "uploaded",
+    "status": "error",
     "label": "docx",
     "owner": "composer"
   },
@@ -128,7 +128,7 @@
   {
     "id": "2784",
     "title": "holiday_photo.jpg",
-    "status": "uploaded",
+    "status": "error",
     "label": "jpg",
     "owner": "admin"
   },
