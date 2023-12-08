@@ -2,7 +2,13 @@ import { UserNavBar } from "@/components/navbar/user-navbar"
 import { Search } from "@/components/navbar/search"
 import UserPrivilegesSwitcher from "@/components/navbar/user-privileges-switcher"
 import { Sidebar } from "@/components/sidebar/sidebar"
-export default function Home() {
+import FilesPage from "@/components/files/files"
+
+
+
+
+export default  function Home() {
+
   return (
     <main>
       <div className="border-b">
@@ -16,8 +22,11 @@ export default function Home() {
         <div className="border-t">
           <div className="bg-background">
             <div className="grid lg:grid-cols-5">
-                <Sidebar />
+              <Sidebar />
             </div>
+          </div>
+          <div className="hidden h-full flex-1 flex-col space-y-8 p-8 md:flex">
+              <FilesPage />
           </div>
         </div>
       </div>
